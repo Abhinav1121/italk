@@ -10,15 +10,11 @@ Powered by `WebRTC` using google Stun and [numb](http://numb.viagenie.ca/) Turn.
 
 Open the app with the following **supported browsers** & many more...
 
-[//]: #![webrtc](www/images/webrtc.png)
 
-[![Foo](https://mirotalk.herokuapp.com/)
+
+
 
 ## https://meet.sourcesytax.com/
-
-<br>
-
-[![italk](www/images/preview.png)](https://meet.sourcesytax.com/)
 
 ## Features
 
