@@ -6,7 +6,7 @@
 
 [//]: https://img.shields.io/badge/<LABEL>-<MESSAGE>-<COLOR>
 
-Powered by `WebRTC` using google Stun and [numb](http://numb.viagenie.ca/) Turn. `MiroTalk` provides video quality and latency not available with traditional technology.
+Powered by `WebRTC` using google Stun and [numb](http://numb.viagenie.ca/) Turn. `iTalk` provides video quality and latency not available with traditional technology.
 
 Open the app with the following **supported browsers** & many more...
 
