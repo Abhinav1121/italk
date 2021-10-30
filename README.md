@@ -1,18 +1,10 @@
-# MiroTalk
+# iTalk
 
 🚀 `A free WebRTC browser-based video call, chat and screen sharing` 🚀
 
 <br>
 
 [//]: https://img.shields.io/badge/<LABEL>-<MESSAGE>-<COLOR>
-
-[![Author](https://img.shields.io/badge/Author-Miroslav-brightgreen.svg)](https://www.linkedin.com/in/miroslav-pejic-976a07101/)
-![License: AGPLv3](https://img.shields.io/badge/License-AGPLv3-blue.svg)
-[![Donate](https://img.shields.io/badge/Donate-PayPal-brightgreen.svg)](https://paypal.me/MiroslavPejic?locale.x=it_IT)
-[![Repo Link](https://img.shields.io/badge/Repo-Link-black.svg)](https://github.com/miroslavpejic85/mirotalk)
-[![Code style: prettier](https://img.shields.io/badge/Code_style-Prettier-ff69b4.svg?)](https://github.com/prettier/prettier)
-[![Gitter](https://badges.gitter.im/mirotalk/community.svg)](https://gitter.im/mirotalk/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-[![Discord](https://img.shields.io/badge/Chat-Discord-green)](https://discord.gg/TAeWXJCvBr)
 
 Powered by `WebRTC` using google Stun and [numb](http://numb.viagenie.ca/) Turn. `MiroTalk` provides video quality and latency not available with traditional technology.
 
@@ -22,11 +14,11 @@ Open the app with the following **supported browsers** & many more...
 
 [![Foo](www/images/browsers.png)](https://mirotalk.herokuapp.com/)
 
-## https://mirotalk.herokuapp.com/
+## https://meet.sourcesytax.com/
 
 <br>
 
-[![mirotalk](www/images/preview.png)](https://mirotalk.herokuapp.com/)
+[![italk](www/images/preview.png)](https://meet.sourcesytax.com/)
 
 ## Features
 
@@ -54,18 +46,9 @@ Open the app with the following **supported browsers** & many more...
 
 ## Demo
 
--   `Open` https://mirotalk.up.railway.app/newcall `or` https://mirotalk.herokuapp.com/newcall
--   `Pick` your personal Room name and `Join To Room`
--   `Allow` to use the camera and microphone
--   `Share` the Room URL and `Wait` someone to join for video conference
-
 ## Room join
 
--   You can also `join` directly to your `room` by going to https://mirotalk.up.railway.app/join/your-room-name-goes-here `or` https://mirotalk.herokuapp.com/join/your-room-name-goes-here
-
 ## Quick start
-
--   You will need to have `Node.js` installed, this project has been tested with Node version [12.X](https://nodejs.org/en/blog/release/v12.22.1/) and [14.X](https://nodejs.org/en/blog/release/v14.17.5/)
 
 ```bash
 # clone this repo
@@ -112,41 +95,8 @@ $ curl -X POST "https://mirotalk.up.railway.app/api/v1/meeting" -H "authorizatio
 $ curl -X POST "https://mirotalk.herokuapp.com/api/v1/meeting" -H "authorization: mirotalk_default_secret" -H "Content-Type: application/json"
 ```
 
-## API Documentation
 
-The API documentation uses [swagger](https://swagger.io/) at http://localhost:3000/api/v1/docs. Or check it out on [railway](https://mirotalk.up.railway.app/api/v1/docs) & [heroku](https://mirotalk.herokuapp.com/api/v1/docs).
 
----
-
-If you want `MiroTalk` to be `reachable` from the `outside` of your local network, you can use a service like [ngrok](https://ngrok.com/) (by editing the `Ngrok` part on `.env` file) or expose it directly on [https](ssl/README.md) or deploy it on:
-
-<br>
-
-[![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/)
-
-`demo` https://mirotalk.herokuapp.com/
-
-[![heroku-qr](www/images/mirotalk-heroku-qr.png)](https://mirotalk.herokuapp.com/)
-
-<br>
-
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app)
-
-`demo` https://mirotalk.up.railway.app/
-
-[![railway-qr](www/images/mirotalk-railway-qr.png)](https://mirotalk.up.railway.app/)
-
----
-
-## Credits
-
-Many Thanks to:
-
--   ianramzy (html [template](https://cruip.com/demos/neon/))
--   vasanthv (webrtc)
--   Sajad (chat)
--   i-aryan (whiteboard)
--   fmeringdal (rest api)
 
 From where I took inspiration for this project. ❤️
 
@@ -162,7 +112,3 @@ From where I took inspiration for this project. ❤️
 ## License
 
 [![AGPLv3](www/images/AGPLv3.png)](LICENSE)
-
----
-
-<p align="center"> Made with ❤️ by <a href="https://www.linkedin.com/in/miroslav-pejic-976a07101/">Miroslav Pejic</a></p>
