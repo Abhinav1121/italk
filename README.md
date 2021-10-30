@@ -12,7 +12,7 @@ Open the app with the following **supported browsers** & many more...
 
 [//]: #![webrtc](www/images/webrtc.png)
 
-[![Foo](www/images/browsers.png)](https://mirotalk.herokuapp.com/)
+[![Foo](https://mirotalk.herokuapp.com/)
 
 ## https://meet.sourcesytax.com/
 
